@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;800&display=swap');
+
+.home-main-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home-posts-title-list {
+  list-style: none;
+    .home-post-list-item:hover {
+      cursor: pointer;  
+      font-weight: bold;
+    }
+}
+
+.home-post-owner {
+  font-size: small;
+  color: rgb(103, 112, 117);
+}
+
+.home-description {
+  font-family: 'Merienda', cursive;
+  font-weight: unset;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .home-description-text {
+    margin: unset;
+  }
+}
+
+.home-page-title {
+  font-family: 'Merienda', cursive;
+  font-size: 3vw;
+  animation: wave-text 5s ease-in-out infinite;
+
+}
+
+@keyframes wave-text {
+
+  50%{
+    transform: translateY(.1em) scaleY(90%);
+  }
+  
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,900&display=swap');
+
+.navbar-link {
+  text-decoration: unset;
+  color: aliceblue;
+  background-color: unset;
+    &:hover {
+      text-shadow: rgb(163, 182, 199)  1px 1px 10px;
+      color: rgb(230, 243, 255);
+    }
+} 
+
+.navbar {
+  position: absolute;
+  background-color: black;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  margin: -8px -8px 10px -8px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  border: outset 1px black;
+}
+
+.navbar-logo-container {
+  color: aliceblue;
+  margin: auto auto auto auto;
+}
+
+.navbar-logo {
+  font-family: 'Genos', sans-serif;
+  z-index: 6;
+  font-size: 40px;
+  margin: unset;
+  margin-right: 10px;
+  margin-left: 10px;
+    &:hover{
+      cursor: pointer;
+      text-shadow: rgb(163, 182, 199)  1px 1px 5px;
+    }
+}
+
+.navbar-login-register {
+  text-align: right;
+  min-width: 120px;
+  margin-top: auto;
+  margin-right: 3vw;
+}
+
+.navbar-left-links-container{
+  min-width: 120px;
+  margin-top: auto;
+  margin-left: 3vw;
+}
+
+#home-link {
+  margin-right: 10px;
+}
+
+#navbar-ghost {
+  height: 60px;
+}
+
+#navbar-login-link{
+  margin-right: 5px;
+}
+
+#navbar-register-link{
+  margin-left: 5px;
+}
+
+#posts-link {
+  margin-left: 10px;
+}

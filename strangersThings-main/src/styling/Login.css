@@ -1,0 +1,39 @@
+.login-main-container { 
+  text-align: center;
+}
+
+.username-input, .password-input {
+  border-radius: 5px;
+  border: none; 
+  font-size: 17px;
+}
+
+.username-container {
+  margin: 5px; 
+}
+
+.password-container {
+  margin: 5px;
+}
+
+.password-label {
+  margin-right: 5px;
+}
+
+.login-btn {
+  margin-top: 2vh;
+  background-color:#111417 ;
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+  display: inline-flex;
+  color: aliceblue;
+  padding-top: 5px;
+    &:hover {
+      box-shadow: 0px 0px 4px white;
+    }
+}
+
+#login-btn-logo {
+  height: 17px;
+}

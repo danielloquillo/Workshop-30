@@ -1,0 +1,25 @@
+.footer {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  margin: 10px -8px -8px -8px;
+  padding: 10px;
+} 
+
+.footer-text, #footer-about {
+  color: rgb(119, 119, 119);
+  font-size: small;
+}
+
+#footer-about {   
+  margin-left: 15px;
+  font-size: x-small;
+}
+
+#footer-contact-info {
+  padding: 5px;
+  margin: 10px;
+}
